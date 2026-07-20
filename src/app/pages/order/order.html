@@ -13,14 +13,14 @@
             <div class="main-fields">
                 <div class="main-field" id="fromField">
                     <div class="main-pin"></div>
-                    <input id="from" fromControlName="from" placeholder="Откуда: начните вводить адрес"
+                    <input id="from" formControlName="from" placeholder="Откуда: начните вводить адрес"
                         autocomplete="off" />
                     <div class="main-ac" id="fromAc" role="listbox" aria-label="Подсказки адресов"></div>
                 </div>
 
                 <div class="main-field" id="toField">
                     <div class="main-pin"></div>
-                    <input id="to" fromControlName="to" placeholder="Куда: начните вводить адрес" autocomplete="off" />
+                    <input id="to" formControlName="to" placeholder="Куда: начните вводить адрес" autocomplete="off" />
                     <div class="main-ac" id="toAc" role="listbox" aria-label="Подсказки адресов"></div>
                 </div>
             </div>
@@ -84,10 +84,10 @@
                     <div class="main-block-title">Контакты</div>
                     <div class="order-fields">
                         <div class="main-field">
-                            <input id="customerName" fromControlName="name" placeholder="Ваше имя" autocomplete="off" />
+                            <input id="customerName" formControlName="name" placeholder="Ваше имя" autocomplete="off" />
                         </div>
                         <div class="main-field">
-                            <input id="customerPhone" fromControlName="phone" placeholder="Ваш телефон"
+                            <input id="customerPhone" formControlName="phone" placeholder="Ваш телефон"
                                 autocomplete="off" inputmode="tel" />
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                 <div class="main-block-info-row extra-info">
                     <div class="main-block-title">Дополнительная информация</div>
                     <div class="main-field textarea">
-                        <textarea id="comment" fromControlName="comment"
+                        <textarea id="comment" formControlName="comment"
                             placeholder="Детали доставки и комментарии"></textarea>
                     </div>
                 </div>
